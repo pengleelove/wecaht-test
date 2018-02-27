@@ -22,6 +22,6 @@ window.Vue = require('vue');
 
 const app = new Vue({
   router,
-    render: createElement => createElement(require('./components/test.vue'))
+    render: createElement => createElement(require('./components/App.vue'))
 });
 app.$mount('#app');

@@ -3,6 +3,7 @@
        <!--<group>-->
            <!--<cell title="title" value="value">123333</cell>-->
        <!--</group>-->
+       <router-link to="/test">go to test</router-link>
        欢迎来到 Raybon 的Code 世界
    </div>
 </template>
