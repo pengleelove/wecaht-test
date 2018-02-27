@@ -1,9 +1,10 @@
 <template>
    <div id="app">
-       <!--<group>-->
-           <!--<cell title="title" value="value">123333</cell>-->
-       <!--</group>-->
-       <router-view >555555555</router-view>
+       <p>
+           <router-link to="/home">go to home</router-link>
+       </p>
+       <router-view></router-view>
+       我的第一个Vue H5小应用
    </div>
 </template>
 

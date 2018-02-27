@@ -6,8 +6,8 @@
  */
 
 import Vue from 'vue'
-import VueRouter from 'vue-router'
 
+import router from './routes/index'
 require('./bootstrap');
 
 window.Vue = require('vue');
@@ -19,10 +19,9 @@ window.Vue = require('vue');
  */
 
 // Vue.component('example-component', require('./components/ExampleComponent.vue'));
-  Vue.use(VueRouter);
 
 const app = new Vue({
-
+  router,
     render: createElement => createElement(require('./components/test.vue'))
 });
 app.$mount('#app');
