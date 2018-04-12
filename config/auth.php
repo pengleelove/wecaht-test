@@ -41,8 +41,13 @@ return [
             'provider' => 'users',
         ],
 
+        //'api' => [
+        //    'driver' => 'token',
+        //    'provider' => 'users',
+        //],
+        //  将api 接口更新为 jwt 认证
         'api' => [
-            'driver' => 'token',
+            'driver' => 'jwt',
             'provider' => 'users',
         ],
     ],
