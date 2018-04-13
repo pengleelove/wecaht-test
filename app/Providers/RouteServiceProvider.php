@@ -2,6 +2,7 @@
 
 namespace App\Providers;
 
+use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
 
@@ -73,8 +74,11 @@ class RouteServiceProvider extends ServiceProvider
              ->group(base_path('routes/api.php'));
     }
 
-    protected function mapTest(){
-        Route::namespace($this->namespace)
-            ->group(base_path('routes/t.php'));
+    protected function mapTest()
+    {
+        if (App::environment() == 'local') {
+            Route::namespace($this->namespace)
+                ->group(base_path('routes/t.php'));
+        }
     }
 }
