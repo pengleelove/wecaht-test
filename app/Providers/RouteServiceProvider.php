@@ -77,8 +77,11 @@ class RouteServiceProvider extends ServiceProvider
     protected function mapTest()
     {
         if (App::environment() == 'local') {
-            Route::namespace($this->namespace)
-                ->group(base_path('routes/t.php'));
+            Route::group([ 'namespace' => $this->namespace ], function () {
+                if (is_file(base_path('routes/t.php'))) {
+                    require base_path('routes/t.php');
+                }
+            });
         }
     }
 }
