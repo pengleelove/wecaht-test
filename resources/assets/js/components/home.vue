@@ -5,8 +5,10 @@
        <!--</group>-->
        <!--http://cloud.video.taobao.com/play/u/1748679248/p/2/e/3/t/1/70931570.m3u8-->
        <div>
-           <iframe frameborder="yes" border="4"  marginwidth="0" marginheight="0" width=330 height=86
-                   src="http://cloud.video.taobao.com/play/u/1748679248/p/2/e/3/t/1/70931570.m3u8"></iframe>
+<!--http://music.163.com/#/m/song?id=28273424-->
+           <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=33211676&auto=1&height=66"></iframe>
+           <!--<iframe frameborder="yes" border="4"  marginwidth="0" marginheight="0" width=330 height=86-->
+                   <!--src="http://cloud.video.taobao.com/play/u/1748679248/p/2/e/3/t/1/70931570.m3u8"></iframe>-->
        </div>
        <div>
            <router-link to="/test">go to test</router-link>
