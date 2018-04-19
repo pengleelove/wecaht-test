@@ -67,9 +67,8 @@
         {{--</style>--}}
     </head>
     <body>
-        {{--<div id="app"></div>--}}
-        {{--<script src="/js/app.js"></script>--}}
-     333333
+        <div id="app"></div>
+        <script src="/js/app.js"></script>
     </body>
 <script>
     $(function(){
