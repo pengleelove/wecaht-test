@@ -11,7 +11,7 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
-
+         <script src="http://cdn.bootcss.com/jquery/1.9.0/jquery.min.js"></script>
         <!-- Styles -->
         {{--<style>--}}
             {{--html, body {--}}
@@ -67,8 +67,44 @@
         {{--</style>--}}
     </head>
     <body>
-        <div id="app"></div>
-        <script src="/js/app.js"></script>
-
+        {{--<div id="app"></div>--}}
+        {{--<script src="/js/app.js"></script>--}}
+     333333
     </body>
+<script>
+    $(function(){
+
+
+      $.ajaxSetup({
+        headers: {
+          'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content'),
+          // 'Request-City': 'zhengzhou',
+          'Content-Type': 'application/x-www-form-urlencoded',
+          'Accept': 'application/x..v1+json',
+        }
+      });
+// $.get('http://api-test.1fangxin.cn/v1/common/district-business', {}, function(data) {
+// console.log(data);
+// })
+// urlTab
+//      api-test.1fangxin.cn  app.fx.test
+      $.ajax({
+        url: 'http://app.fx.test/v1/common/district-business',
+        type: 'GET',
+        //method: 'GET',
+        dataType: 'json',
+        // headers:{
+        //   'Request-City':'zhengzhou',
+        // },
+        success: function(data) {
+          console.log(data)
+        },
+        error: function(data) {
+          console.log(data)
+        }
+
+      })
+
+      })
+</script>
 </html>
