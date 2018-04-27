@@ -1,0 +1,27 @@
+!.gitignore
+.DS_Store
+node_modules/
+dist/
+npm-debug.log
+yarn-error.log
+/test/unit/coverage/
+/test/e2e/reports/
+selenium-debug.log
+public/js/app.js
+/public/css/app.css
+/routes/t.php
+/.env
+/vendor
+.php_cs.cache
+/package-lock.json
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+.phpstorm.meta.php
+_ide_helper.php
+public/css/
+public/js/
