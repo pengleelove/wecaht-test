@@ -21,3 +21,11 @@
     </div>
 </div>
 @endsection
+@push('script')
+    @guest
+    @else
+        <!-- Scripts -->
+        <script src="{{ asset('js/app.js') }}" defer></script>
+    @endguest
+
+@endpush

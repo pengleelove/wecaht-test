@@ -20,8 +20,8 @@ window.Vue = require('vue');
 
 // Vue.component('example-component', require('./components/ExampleComponent.vue'));
 
-// const app = new Vue({
-//   router,
-//     render: createElement => createElement(require('./components/App.vue'))
-// });
-// app.$mount('#app');
+const app = new Vue({
+  router,
+    render: createElement => createElement(require('./components/App.vue'))
+});
+app.$mount('#app');
