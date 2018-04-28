@@ -1,5 +1,5 @@
 <template>
-   <div>
+   <div class="home-content">
        <!--<group>-->
            <!--<cell title="title" value="value">123333</cell>-->
        <!--</group>-->
@@ -35,5 +35,8 @@
 </script>
 
 <style scoped lang="less">
+    .home-content {
+        background: #1b6d85;
+    }
     @import '~vux/src/styles/reset.less';
 </style>
