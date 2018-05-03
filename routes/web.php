@@ -7,7 +7,10 @@
 Route::get('/', 'HomeController@index');
 
 Route::get('/test', function () {
-    return '测试成功';
+    return Response::json([
+        'code'   => 0,
+        'message'=> '您当前处于测试环境中',
+        'data'   => [],
+    ]);
 });
 Auth::routes();
-
