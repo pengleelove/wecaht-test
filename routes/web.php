@@ -13,4 +13,11 @@ Route::get('/test', function () {
         'data'   => [],
     ]);
 });
+Route::post('/vip', function () {
+    return Response::json([
+        'code'   => 0,
+        'message'=> '您当前处于测试环境中',
+        'data'   => [],
+    ]);
+});
 Auth::routes();
