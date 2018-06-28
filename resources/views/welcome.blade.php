@@ -68,7 +68,7 @@
     </head>
     <body>
         <div id="app"></div>
-        <script src="/js/app.js"></script>
+        {{--<script src="/js/app.js"></script>--}}
     </body>
 <script>
     $(function(){
@@ -88,8 +88,11 @@
 // urlTab
 //      api-test.1fangxin.cn  app.fx.test
       $.ajax({
-        url: 'http://app.fx.test/v1/common/district-business',
-        type: 'GET',
+        url: 'http://app.1fangxin.net/v1/common/community/index',
+        type: 'POST',
+        data:{
+           key: '金',
+        },
         //method: 'GET',
         dataType: 'json',
         // headers:{
