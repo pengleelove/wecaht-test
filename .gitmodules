@@ -1,3 +1,3 @@
-[submodule "packages"]
-	path = packages
+[submodule "pagckages"]
+	path = pagckages
 	url = git@gitlab.1fangxin.cn:fangxin/larvel-advanced-search.git

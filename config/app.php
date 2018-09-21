@@ -1,5 +1,6 @@
 <?php
 
+use MatrixLab\LaravelAdvancedSearch\AdvancedSearchServiceProvider;
 use Overtrue\LaravelWeChat\ServiceProvider;
 
 return [
@@ -11,7 +12,7 @@ return [
     |
     | This value is the name of your application. This value is used when the
     | framework needs to place the application's name in a notification or
-    | any other location as required by the application or its packages.
+    | any other location as required by the application or its pagckages.
     |
     */
 
@@ -172,6 +173,9 @@ return [
          *   JWT-AUTH TOKEN 令牌验证
          */
         Tymon\JWTAuth\Providers\LaravelServiceProvider::class,
+
+        // 高级搜索的模型 selects 补全
+        AdvancedSearchServiceProvider::class
 
     ],
 

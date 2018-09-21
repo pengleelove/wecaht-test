@@ -13,7 +13,7 @@ return array(
 
     'filename'  => '_ide_helper',
     'format'    => 'php',
-    
+
     'meta_filename' => '.phpstorm.meta.php',
 
     /*
@@ -145,10 +145,10 @@ return array(
      | Support for camel cased models
      |--------------------------------------------------------------------------
      |
-     | There are some Laravel packages (such as Eloquence) that allow for accessing
+     | There are some Laravel pagckages (such as Eloquence) that allow for accessing
      | Eloquent model properties via camel case, instead of snake case.
      |
-     | Enabling this option will support these packages by saving all model
+     | Enabling this option will support these pagckages by saving all model
      | properties as camel case, instead of snake case.
      |
      | For example, normally you would see this:
