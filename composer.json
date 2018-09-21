@@ -15,7 +15,9 @@
         "laravel/tinker": "~1.0",
         "mitoop/hello-world": "^0.0.1",
         "overtrue/laravel-wechat": "~4.0",
-        "tymon/jwt-auth": "1.0.0-rc.2"
+        "spatie/laravel-backup": "^5.9",
+        "tymon/jwt-auth": "1.0.0-rc.2",
+        "webonyx/graphql-php": "^0.12.4"
     },
     "require-dev": {
         "barryvdh/laravel-ide-helper": "^2.4",
