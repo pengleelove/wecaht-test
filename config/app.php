@@ -173,7 +173,7 @@ return [
          *   JWT-AUTH TOKEN 令牌验证
          */
         Tymon\JWTAuth\Providers\LaravelServiceProvider::class,
-        
+
 
     ],
 

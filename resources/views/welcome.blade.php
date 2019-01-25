@@ -87,25 +87,25 @@
 // })
 // urlTab
 //      api-test.1fangxin.cn  app.fx.test
-      $.ajax({
-        url: 'http://app.1fangxin.net/v1/common/community/index',
-        type: 'POST',
-        data:{
-           key: '金',
-        },
-        //method: 'GET',
-        dataType: 'json',
-        // headers:{
-        //   'Request-City':'zhengzhou',
-        // },
-        success: function(data) {
-          console.log(data)
-        },
-        error: function(data) {
-          console.log(data)
-        }
-
-      })
+//       $.ajax({
+//         url: 'http://app.1fangxin.net/v1/common/community/index',
+//         type: 'POST',
+//         data:{
+//            key: '金',
+//         },
+//         //method: 'GET',
+//         dataType: 'json',
+//         // headers:{
+//         //   'Request-City':'zhengzhou',
+//         // },
+//         success: function(data) {
+//           console.log(data)
+//         },
+//         error: function(data) {
+//           console.log(data)
+//         }
+//
+//       })
 
       })
 </script>
