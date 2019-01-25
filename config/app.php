@@ -173,9 +173,7 @@ return [
          *   JWT-AUTH TOKEN 令牌验证
          */
         Tymon\JWTAuth\Providers\LaravelServiceProvider::class,
-
-        // 高级搜索的模型 selects 补全
-        AdvancedSearchServiceProvider::class
+        
 
     ],
 
